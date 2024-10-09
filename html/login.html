@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <title>로그인</title>
+</head>
+<body>
+  <div id='header1'></div>
+  <main>
+    <div id="login-container">
+      아이디 : <input type="text" name="" id="">
+      <br>
+      비밀번호 : <input type="password" name="" id="">
+      <br>
+      <button type="button" onclick="location.href='main.html'">로그인</button>
+    </div>
+  </main>
+  <div id="footer"></div>
+</body>
+<script>
+  $(function () {
+    $("#header1").load("header.html");
+  });
+
+  $(function () {
+    $("#footer").load("footer.html");
+  });
+</script>
+</html>
