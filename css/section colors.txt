@@ -1,4 +1,6 @@
 전체 색상 : white
 header, footer : gray
-main - section1 : aqua
+main - section1 : aqua -> yellowgreen
 main - section2 : pink
+main - section3 : aquamarine
+
